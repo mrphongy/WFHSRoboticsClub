@@ -20,12 +20,12 @@ public class TurnUsingIR {
         
         while(true){
             //I have no idea if the if the number 50 means that the object is close or far away.
-            if(rightIRvalue > 50){
+            if(rightIRvalue > 100){
                 leftMotor.setPower(6);
                 rightMotor.setPower(0);
                 display.print(0, "TURNING RIGHT");
             }
-            else if(leftIRvalue > 50){
+            else if(leftIRvalue > 100){
                 leftMotor.setPower(0);
                 rightMotor.setPower(6);
                 display.print(0, "TURNING LEFT");
