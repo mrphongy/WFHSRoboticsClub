@@ -13,7 +13,7 @@ import com.ridgesoft.robotics.ContinuousRotationServo; //Second necessary librar
  */
 public class MoveForward {
     public static void main(String[] args){
-        Motor leftMotor = new ContinuousRotationServo(IntelliBrain.getServo(2), false, 10);
+        Motor leftMotor = new ContinuousRotationServo(IntelliBrain.getServo(1), false, 10);
         Motor rightMotor = new ContinuousRotationServo(IntelliBrain.getServo(2), true, 10);
         
         while(true){
